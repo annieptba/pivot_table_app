@@ -1,0 +1,5 @@
+ports:
+- port: 8050
+  onOpen: open-preview
+tasks:
+- init: /workspace/gitpod-dash/run.sh
